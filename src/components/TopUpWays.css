@@ -1,0 +1,255 @@
+.topup-container {
+    background-color: #1c1123;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.topup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.topup-section {
+    margin-top: 20px;
+}
+
+.topup-section h4 {
+    color: #b8a6d9;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.topup-option {
+    display: flex;
+    align-items: center;
+    background-color: #2a1a3b;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    gap: 10px;
+}
+
+.topup-option.selected {
+    border: 2px solid #8a4bc6;
+}
+
+.bank-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.bank-details {
+    flex-grow: 1;
+}
+
+.bank-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.account {
+    font-size: 12px;
+    color: #c3b1e1;
+}
+
+.upi-icon,
+.card-icon {
+    width: 18px;
+    margin-left: 5px;
+}
+
+.check-icon,
+.radio-icon {
+    font-size: 18px;
+}
+
+.check-icon {
+    color: #47d147;
+}
+
+.radio-icon {
+    color: #c3b1e1;
+}
+
+.vendor-search-container {
+    position: relative;
+}
+
+.vendor-search {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #8a4bc6;
+    background-color: #2a1a3b;
+    color: white;
+}
+
+.vendor-search:disabled {
+    background-color: #3b2a55;
+}
+
+.spinner-icon,
+.verified-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.spinner-icon {
+    color: #a061e6;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(360deg); }
+}
+
+.verified-icon {
+    color: #47d147;
+}
+
+.verify-upi-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #a061e6;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.verify-upi-btn:disabled {
+    background-color: #2a1a3b;
+    cursor: not-allowed;
+}
+
+.verify-upi-btn:hover:not(:disabled) {
+    background-color: #8a4bc6;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a061e6;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pay-button:hover {
+    background-color: #8a4bc6;
+}
+
+.voucher-input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #a061e6; /* Application theme color */
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    padding-right: 30px; /* Add padding to make space for icons */
+    position: relative;
+}
+
+.voucher-input .error-icon,
+.voucher-input .success-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none; /* Ensure icons do not interfere with input interaction */
+}
+
+.cancel_btn , .confirm_btn{
+    width: 48%;
+    border: 1px solid #a061e6; /* Application theme color */
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    outline: none;
+    color: #fff;
+    border-radius: 16px;
+    background: transparent;
+    font-weight: bold;
+}
+.confirm_btn{
+    background: #a061e6;
+}
+.voucher-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cancel-btn, .confirm-btn {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #f44a4a; /* Danger color */
+    color: white;
+}
+
+.confirm-btn {
+    background-color: #a061e6; /* Application theme color */
+    color: white;
+}
+
+.confirm-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-icon {
+    color: #f44a4a; /* Danger color */
+    margin-left: 10px;
+}
+
+.success-icon {
+    color: #28a745; /* Success color */
+    margin-left: 10px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+  color: #4caf50;
+}

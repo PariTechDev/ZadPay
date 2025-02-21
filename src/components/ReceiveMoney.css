@@ -1,0 +1,104 @@
+.receive-money-container {
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    /* background: #4B2178;
+    padding: 15px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left i {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.header-text h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #c5a3ff;
+}
+
+/* Bank Info */
+.bank-info {
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.bank-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* QR Code */
+.qr-box {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qr-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.qr-btn {
+    color: #925fd5;
+}
+
+/* UPI Section */
+.upi-section {
+    margin-top: 20px;
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.upi-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #333;
+}
+
+.upi-item:last-child {
+    border-bottom: none;
+}
+
+.copy-btn {
+    cursor: pointer;
+    color: #9b6ef3;
+}

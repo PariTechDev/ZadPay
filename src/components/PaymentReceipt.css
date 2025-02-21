@@ -1,0 +1,322 @@
+@keyframes pulseBackground {
+    0% {
+        background-color: #1b5e20;
+    }
+
+    50% {
+        background-color: #2e7d32;
+    }
+
+    100% {
+        background-color: #1b5e20;
+    }
+}
+
+/* Main Container */
+.paymentReceipt {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b5e20;
+    animation: pulseBackground 3s infinite;
+}
+
+/* Success Section */
+.successSection {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.checkmarkIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.paymentText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paymentTime {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+/* Transaction Box */
+.transactionBox {
+
+}
+
+.transacr_details{
+    background-color: #1a1124;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px;
+    /* margin-top: 20px; */
+    color: white;
+    display: flex;
+}
+/* User Section */
+.userSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #6d44b8;
+    padding: 10px;
+}
+
+.username {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.userNumber {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.amountSection h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.splitExpense {
+    font-size: 12px;
+    color: #a96dfc;
+    text-decoration: underline;
+}
+
+/* Transaction Actions */
+.transactionActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.actionBtn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.actionBtn img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.styled-btn {
+    background-color: transparent;
+    color: #8a56c2;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+/* .styled-btn .action-icon {
+    margin-right: 8px;
+} */
+
+/* Advertisement Section */
+.adContainer {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.adImage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.receiptFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.upiLogo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.doneButton {
+    width: 90%;
+    background-color: #a96dfc;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.homeButton {
+    width: 90%;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.viewReceiptButton, .viewDetailsButton {
+    width: 90%;
+    background-color: #2196f3;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.payment-receipt {
+    background: #2f7d32;
+    height: 100vh;
+}
+
+.transaction-box {
+    width: 85%;
+    margin: auto;
+    border-radius: 8px;
+    background: #1a1124;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    padding: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.user-section {
+    width: 55%;
+    margin: auto;
+    border-radius: 8px;
+    /* background: #21182b; */
+    display: flex;
+    flex-direction: column;
+}
+.user_logo {
+     width: 20%;
+}
+.user_logo div{
+    background: #8a56c2;
+    padding: 20px 0px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.amount-section{
+    width: 25%;
+    text-align: right;
+}
+.user-info{
+    text-align: left;
+    padding-left: 10px
+}
+
+.user-number{
+    font-size: 12px;
+    color: #bcb3c6;
+}
+
+.bill_amount{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tit{
+    font-size: 14px;
+    color: #8a56c2;
+}
+
+.transaction-actions{
+    display: flex;
+    gap: 10px;
+}
+.transaction-actions button{
+   flex: 1;
+}
+.action-btn .styled-btn{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.transaction-actions button span{
+    background: #8a56c2;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px
+}
+
+
+.action-btn .styled-btn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.success-section{
+    text-align: center;
+}
+
+.ad-container{
+    height: 50vh;
+    background: #25402d;
+}
+.receipt-footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: #9b6adf;
+    background: #21182b;
+    padding: 15px;
+}
+
+.receipt-footer button{
+    background: transparent;
+    border: none;
+    color: #9b6adf;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+@keyframes pulseBackground {
+    0% { background-color: #2e7d32; }
+    50% { background-color: #388e3c; }
+    100% { background-color: #2e7d32; }
+}
+
+.payment-success-container {
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: pulseBackground 1.5s infinite ease-in-out;
+    text-align: center;
+    padding: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.checkmark-wrapper {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.checkmark-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.payment-text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.payment-time {
+    font-size: 16px;
+    color: #39df3f;
+    text-align: center;
+    font-weight: bold;
+}

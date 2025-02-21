@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.wallet-container {
+    background: #2e014d;
+    color: white;
+    min-height: 100vh;
+    /* padding: 15px; */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.wallet-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Wallet Banner */
+.wallet-banner {
+    background: linear-gradient(to right, #4b0082, #7c4dff);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.wallet-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.wallet-subtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.upgrade-btn {
+    background: #4527a0;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Wallet Balance */
+.wallet-balance {
+    margin-top: 15px;
+    text-align: left;
+    padding: 10px;
+}
+
+.low-balance {
+    font-size: 14px;
+    color: #e9695b;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.balance-amount {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #e9695b;
+}
+
+/* Topup Section */
+.topup-section {
+    background: #3a1b54;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.topup-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.Recommended{
+    font-size: 14px;
+    margin: 5px 0px;
+    color: #828282;
+}
+.topup-box {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #a88df1;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+}
+
+.topup-box input {
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    width: 80%;
+}
+
+.recommended-amounts {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.recommended-amounts button {
+    background: transparent;
+    border: 1px solid #a88df1;
+    color: white;
+    padding: 2px 14px;
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#a88df1 ;
+}
+
+.topup-button {
+    width: 100%;
+    padding: 12px;
+    background: #a85ef8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Wallet Options */
+.wallet-options {
+    margin-top: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3a1b54;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.option-left {
+    display: flex;
+    align-items: center;
+}
+
+.option-left div {
+    margin-left: 10px;
+}
+
+.option-left p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.option-left small {
+    font-size: 12px;
+    color: #a88df1;
+}
+
+.option-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.option-arrow {
+    font-size: 18px;
+}

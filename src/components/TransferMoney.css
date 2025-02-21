@@ -1,0 +1,180 @@
+.transfer-money-container {
+    background: #2e014d;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.icon {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.search-bar {
+    background: #421f69;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.search-icon {
+    margin-right: 10px;
+    color: white;
+}
+
+.search-bar input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.tabs p {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #a88df1;
+}
+
+.active-tab {
+    border-bottom: 3px solid #a85ef8;
+    color: white !important;
+}
+
+.accounts {
+    margin-top: 10px;
+}
+
+.account-item {
+    display: flex;
+    align-items: center;
+    background: #3a1b54;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.account-logo img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.account-details {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bank-info {
+    font-size: 14px;
+    margin: 5px 0px 0px;
+    color: #a88df1;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 14px;
+    color: #a88df1;
+    margin: 5px 0px 0px;
+    text-align: right;
+}
+
+.menu-icon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.add-bank-btn {
+    width: 100%;
+    padding: 12px;
+    background: #a85ef8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.bank-details {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.bank-details h2 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bank-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.bank-form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.transfer-btn {
+    width: 100%;
+    padding: 12px;
+    background: #a85ef8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.bank-header{
+    padding: 15px;
+}

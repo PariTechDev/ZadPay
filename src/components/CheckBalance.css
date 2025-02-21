@@ -1,0 +1,70 @@
+.check-balance-container {
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    padding-bottom: 20px;
+}
+
+/* Header */
+.header_top {
+    background: #2e014d;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header_top .back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Section */
+.section {
+    background: #1c1c1c;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.section h6 {
+    font-size: 16px;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+
+/* Bank Item */
+.bank-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    gap: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.bank-item:last-child {
+    border-bottom: none;
+}
+
+.bank-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.bank-accounts-sec {
+    background: #22182b;
+    padding: 0px 20px 15px;
+}
