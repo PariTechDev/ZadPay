@@ -13,27 +13,20 @@ import TOUPIID from "./ToUPIId"; // Import the TOUPIID component
 const bankAccounts = [
   {
     name: "Reena",
-    bank: "Rafidain Bank",
+    bank: "IDB Bank",
     account: "••5914",
     amount: "$3,030",
     date: "22 Jan 2024",
-    logo: process.env.PUBLIC_URL + "/rafidianbank.png",
+    logo: process.env.PUBLIC_URL + "/idb.png",
   },
-  {
-    name: "Said",
-    bank: "Rasheed Bank",
-    account: "••3738",
-    amount: "$15,050",
-    date: "07 Jan 2025",
-    logo: process.env.PUBLIC_URL + "/rasheedbank.png",
-  },
+
   {
     name: "jalhahal",
-    bank: "Bank of Baghdad",
+    bank: "Mashreq Bank",
     account: "••7143",
     status: "Bank account added",
     date: "07 Aug 2024",
-    logo: process.env.PUBLIC_URL + "/bagdadh.png",
+    logo: process.env.PUBLIC_URL + "/mashreq.png",
   },
   {
     name: "Tata Motors",
@@ -42,6 +35,14 @@ const bankAccounts = [
     status: "Bank account added",
     date: "05 Jul 2024",
     logo: process.env.PUBLIC_URL + "/nationalbank.png",
+  },
+  {
+    name: "Said",
+    bank: "Rasheed Bank",
+    account: "••3738",
+    amount: "$15,050",
+    date: "07 Jan 2025",
+    logo: process.env.PUBLIC_URL + "/rasheedbank.png",
   },
   {
     name: "TATA",

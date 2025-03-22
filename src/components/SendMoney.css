@@ -1,4 +1,3 @@
-
 .send-money-container {
    
     color: white;
@@ -68,6 +67,23 @@
     font-size: 16px;
     outline: none;
     padding-left: 10px;
+    border: 1px solid #a061e6;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-bar input::placeholder {
+    color: #a061e6;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: #9b6ef3;
+    box-shadow: 0 0 5px rgba(155, 110, 243, 0.5);
 }
 
 .search-icon {
@@ -193,6 +209,38 @@
     margin-top: 15px;
     cursor: pointer;
     width: 100%;
+}
+
+.new-payment-options button {
+    background-color: #9b6ef3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.new-payment-options {
+    padding-top: 10px;
+    background: #22182b;
+    height: 100vh;
+    padding: 15px;
+}
+.new-payment-options h4 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.new-payment-options button {
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.new-payment-options button:hover {
+    background-color: #a061e6;
 }
 
 .no-transactions {

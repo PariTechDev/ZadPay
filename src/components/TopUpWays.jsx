@@ -5,19 +5,21 @@ import UPIPinEntry from "./UPIPinEntry"; // Import UPIPinEntry component
 import PaymentSuccess from "./PaymentSuccess"; // Import PaymentSuccess component
 import TransactionLoader from "./TransactionLoader"; // Import TransactionLoader component
 
+
+
 const topupOptions = {
   recommended: {
-    bank: "Rafidain Bank",
+    bank: "IDB Bank Iraq",
     account: "** 4873",
-    logo: "/rafidianbank.png",
+    logo: "/idb.png",
     upi: true,
   },
   otherBanks: [
-    { bank: "Rasheed Bank", account: "** XX62", logo: "/rasheedbank.png", upi: true },
     { bank: "Byblos Bank", account: "** 7460", logo: "/byblos.png", upi: true },
-    { bank: "Bank of Baghdad", account: "** 1522", logo: "/bagdadh.png", upi: true },
+    { bank: "Mashreq Bank", account: "** XX62", logo: "/mashreq.png", upi: true },
+    { bank: "National Bank Iraq", account: "** 1522", logo: "/nationalbank.png", upi: true },
   ],
-  creditCards: [{ bank: "Rasheed Bank Credit Card", account: "** 9061", logo: "/rasheedbank.png", type: "mastercard" }],
+  creditCards: [{ bank: "IDB Bank Credit Card", account: "** 9061", logo: "/idb.png", type: "mastercard" }],
 };
 
 const TopUpWays = ({ amount, onClose, onPayClick }) => {
@@ -116,14 +118,20 @@ const TopUpWays = ({ amount, onClose, onPayClick }) => {
 
           {/* Other Bank Accounts */}
           <div className="topup-section">
-            <h4>Other bank accounts</h4>
+            <div className="section-header">
+              <h4>Other bank accounts</h4>
+            </div>
             {topupOptions.otherBanks.map((bank) => renderOption(bank, selected === bank.account))}
+            <button className="self-buttons">Add New Bank</button>
           </div>
 
           {/* Credit/Debit Cards */}
           <div className="topup-section">
-            <h4>Credit/Debit cards</h4>
+            <div className="section-header">
+              <h4>Credit/Debit cards</h4>
+            </div>
             {topupOptions.creditCards.map((card) => renderOption(card, selected === card.account))}
+            <button className="self-buttons">Add New Credit / Debit Card</button>
           </div>
 
           {/* Vendor Links */}
@@ -157,13 +165,13 @@ const TopUpWays = ({ amount, onClose, onPayClick }) => {
           <div className="topup-section">
             <h4>Add from Gift-Voucher</h4>
             <div className="vendor-search-container">
-              <label htmlFor="gift-card-number">Gift Card Number</label>
+              <label htmlFor="gift-card-number">Voucher Number</label>
               <div className="input-with-icon d-flex justify-content-center align-items-center">
                 <input data-clickable="true" 
                   type="text"
                   id="gift-card-number"
                   className="voucher-input"
-                  placeholder="Enter Gift Card Number"
+                  placeholder="Enter Voucher Number"
                   value={voucherNumber}
                   onChange={(e) => setVoucherNumber(e.target.value)}
                   style={{ '::placeholder': { color: '#a061e6' } }}
@@ -197,7 +205,7 @@ const TopUpWays = ({ amount, onClose, onPayClick }) => {
           <p className="text-center py-4 glitter_text m-0 ">Loading More Ways soon..!</p>
 
           {/* Pay Button */}
-          <button className="pay-button mt-0" data-clickable="true" onClick={handlePayClick}>Pay ${amount}</button>
+          <button className="pay-button mt-0" data-clickable="true" onClick={handlePayClick}>Add ${amount}</button>
         </>
       )}
 

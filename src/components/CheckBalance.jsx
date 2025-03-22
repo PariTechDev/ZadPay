@@ -6,11 +6,11 @@ import "./CheckBalance.css"; // Import CSS for styling
 const CheckBalance = ({ onClose }) => {
   // Dummy bank data
   const bankAccounts = [
-    { name: "Rafidain Bank", number: "1522", logo: process.env.PUBLIC_URL + "/rafidianbank.png" },
-    { name: "Rasheed Bank", number: "4873", logo: process.env.PUBLIC_URL + "/rasheedbank.png" },
+    { name: "IDB Bank Iraq", number: "1522", logo: process.env.PUBLIC_URL + "/idb.png" },
     { name: "Byblos Bank", number: "XX77", logo: process.env.PUBLIC_URL + "/byblos.png" },
+    { name: "Mashreq Bank", number: "4873", logo: process.env.PUBLIC_URL + "/mashreq.png" },
+    { name: "National Bank Iraq", number: "7460", logo: process.env.PUBLIC_URL + "/nationalbank.png" }, 
     { name: "Bank of Baghdad", number: "XX62", logo: process.env.PUBLIC_URL + "/bagdadh.png" },
-    { name: "National Bank Iraq", number: "7460", logo: process.env.PUBLIC_URL + "/nationalbank.png" }
   ];
 
   const prepaidBalances = [

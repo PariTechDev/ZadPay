@@ -45,11 +45,11 @@ const PaymentReceipt = ({ date, onDone }) => {
            </div>
           </div>
           <div className="user-section">
-            <h3 className="username mb-2">Iraqi Airlines</h3>
+            <h3 className="username mb-2">My Zad Wallet</h3>
             <p className="user-number m-0">+971-6889789799</p>
           </div>
           <div className="amount-section text-right">
-            <h2 className="tit">Paid</h2>
+            <h2 className="tit">Added</h2>
             <h3 className="bill_amount m-0">$2000</h3>
           </div>
         </div>

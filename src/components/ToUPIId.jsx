@@ -3,10 +3,10 @@ import "./SelfAccount.css"; // Custom CSS for styling
 import { FaArrowLeft, FaSearch, FaEllipsisV, FaQuestionCircle } from "react-icons/fa";
 
 const accounts = [
-    { id: 1, name: "jupiter", initials: "J", upiId: "8978055697@Rafidain" },
-    { id: 2, name: "Nisha Sharma", initials: "NS", upiId: "nishaa003@Rasheed" },
+    { id: 1, name: "jupiter", initials: "J", upiId: "8978055697@IDB" },
+    { id: 2, name: "Nisha Sharma", initials: "NS", upiId: "nishaa003@mashreq" },
     { id: 3, name: "Saroj Bala", initials: "SB", upiId: "poojabala090@Baghdad" },
-    { id: 4, name: "Nineveh Imports ", initials: "TM", upiId: "ninveniexports@Rafidain" },
+    { id: 4, name: "Nineveh Imports ", initials: "TM", upiId: "ninveniexports@National" },
 ];
 
 const ToUpiID = () => {
