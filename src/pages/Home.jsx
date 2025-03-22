@@ -141,7 +141,7 @@ if (activeComponent === "PaymentReceipt") {
           <div className="row mt-3">
             {[
               { icon: faUser, label: "Send To Contact", onClick: handleSendMoneyClick },
-              { icon: faLandmark, label: "Send To Bank", onClick: handleTransferMoneyClick },
+              { icon: faLandmark, label: "Send To ZadPay Bank", onClick: handleTransferMoneyClick },
               { icon: faSyncAlt, label: "To Self Account", onClick: handleSelfAccountClick },
               { icon: faMoneyBillTransfer, label: "Check Balance", onClick: handleCheckBalanceClick },
             ].map((item, index) => (
@@ -172,8 +172,8 @@ if (activeComponent === "PaymentReceipt") {
             ))}
           </div> */}
 
-          <div className="upi-info"> 
-            <small data-clickable="true" onClick={handleReceiveMoneyClick}>
+          <div className="upi-info" data-clickable="true" onClick={handleReceiveMoneyClick}> 
+            <small>
             Zad ID: 1234567890@ybl <FontAwesomeIcon icon={faQrcode} />
             </small>
           </div>

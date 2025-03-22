@@ -121,12 +121,12 @@ const UPIPinEntry = ({ onClose, onTransactionComplete }) => {
       >
         <div className="user_prof d-flex justify-content-between align-items-center">
           <img
-            src="/rafidianbank.png"
+            src="/idb.png"
             alt="UPI Logo"
             className="upi-logo-pin"
           />
           <div style={{ textAlign: "right" }}>
-            <p className="upi-title m-0">Rasheed Bank</p>
+            <p className="upi-title m-0">IDB Bank Iraq Bank</p>
             <p className="upi-title m-0 text-right" style={{color:"#a363eb"}}>**** 4873</p>
           </div>
         </div>
@@ -134,7 +134,7 @@ const UPIPinEntry = ({ onClose, onTransactionComplete }) => {
         <div className="user_trans">
           <div className=" d-flex justify-content-between align-items-center mb-2">
             <p className="upi-title m-0">To:</p>
-            <p className="m-0">Zainab Kareem ...</p>
+            <p className="m-0">My Zad Wallet</p>
           </div>
 
           <div className=" d-flex justify-content-between align-items-center">
