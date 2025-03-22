@@ -102,3 +102,139 @@
     cursor: pointer;
     color: #9b6ef3;
 }
+
+.receive-section {
+    background: #3a1b54;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.receive-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.receive-box , .input-with-button {
+    display: flex;
+        align-items: center;
+        background: transparent;
+        border: 1px solid #a88df1;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 8px;
+        color: white;
+        justify-content: center;
+        width: 100%;
+}
+.input-with-button {
+    justify-content: space-between;
+    padding: 0px;
+    border-radius: 0px;
+}
+.input-with-button .btn {
+    width: auto;
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+    /* border-left: 2px solid#a88df1; */
+}
+.input-with-button .btn:hover , .input-with-button .btn:active , .input-with-button .btn:focus {
+    background-color: #6a42cc !important;
+    cursor: pointer;
+}
+.input-with-button .btn:disabled {
+    background-color: #a88df1;
+    cursor: not-allowed;
+}
+
+.receive-box span , .input-with-button span {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+.receive-box input, .input-with-button input {
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    width: 80%;
+}
+
+.recommended-amounts {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.recommended-amounts button {
+    background: transparent;
+    border: 1px solid #a88df1;
+    color: white;
+    padding: 2px 14px;
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#a88df1 ;
+}
+
+.receive-button {
+    padding: 12px;
+    background: #a85ef8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+.receive-button:disabled {
+    background-color: #a88df1;
+    cursor: not-allowed;
+}
+
+.receive-options {
+    margin-top: 20px;
+}
+
+.receive-options button {
+    /* background-color: #f0f0f0;
+    border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.timer-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.timer-circle svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.timer-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+}

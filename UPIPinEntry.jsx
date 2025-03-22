@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 class UPIPinEntry extends React.Component {
     constructor(props) {
         super(props);
-        this.history = useHistory();
+        // this.history = useHistory();
     }
 
     handleCancelTransaction = () => {

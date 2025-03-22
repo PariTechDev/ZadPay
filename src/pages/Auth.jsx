@@ -96,7 +96,7 @@ const Auth = () => {
           </label>
           <div className="input-group login-input-group">
             <span className="input-group-text bg-transparent border-0">
-              <img src="./flag.png" width="24" alt="India Flag" />
+              <img src="./UAE.png" width="24" alt="UAE Flag" />
             </span>
             <input
               type="tel"

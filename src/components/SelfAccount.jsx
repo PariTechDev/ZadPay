@@ -6,23 +6,30 @@ const bankAccounts = [
   {
     id: 1,
     accountNumber: "XXXXXX7460",
-    bankName: "Rafidain Bank",
+    bankName: "IDB Bank Iraq",
     branch: "PAKALA (CHITTOOR DIST.)",
-    logo: "/rafidianbank.png",
+    logo: "/idb.png",
   },
   {
     id: 2,
     accountNumber: "XXXXXXXXXX62",
-    bankName: "Rasheed Bank",
+    bankName: "Byblos Bank",
     branch: "BANGALORE - HOSUR ROAD",
-    logo: "/rasheedbank.png",
+    logo: "/byblos.png",
   },
   {
     id: 3,
     accountNumber: "XXXXXX4873",
-    bankName: "Byblos Bank",
+    bankName: "Mashreq Bank",
     branch: "JAYANAGAR-RVS PARADISE",
-    logo: "/byblos.png",
+    logo: "/mashreq.png",
+  },
+  {
+    id: 4,
+    accountNumber: "XXXX231522",
+    bankName: "National Bank Iraq",
+    branch: "RBI LAYOUT",
+    logo: "/nationalbank.png",
   },
   {
     id: 4,
@@ -30,13 +37,6 @@ const bankAccounts = [
     bankName: "Bank of Baghdad",
     branch: "RBI LAYOUT",
     logo: "/bagdadh.png",
-  },
-  {
-    id: 4,
-    accountNumber: "XXXX231522",
-    bankName: "National Bank of Iraq",
-    branch: "RBI LAYOUT",
-    logo: "/nationalbank.png",
   }
 ];
 

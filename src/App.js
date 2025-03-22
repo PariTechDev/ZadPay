@@ -10,38 +10,38 @@ import WhatsAppChatbot from "./components/WhatsAppChatbot";
 import GlobalClickHighlighter from "./components/GlobalClickHighlighter";
 
 const App = () => {
-    const [loading, setLoading] = useState(true);
-    const location = useLocation();
+  const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
-    useEffect(() => {
-        setLoading(false);
-    }, [location]);
+  useEffect(() => {
+    setLoading(false);
+  }, [location]);
 
-    const handleLoaderFinish = () => {
-        setLoading(false);
-    };
+  const handleLoaderFinish = () => {
+    setLoading(false);
+  };
 
-    return (
-        <>
-            {loading && <Loader onFinish={handleLoaderFinish} />}
-            {!loading && (
-                <div className="main_Parent">
-                   <GlobalClickHighlighter>
-                    <Routes>
-                        <Route path="/" element={<Auth />} />
-                        <Route path="/otp" element={<OtpVerification />} />
-                        <Route path="/home" element={<Home />} />
-                        <Route path="/sim-selection" element={<SimSelection />} />
-                    </Routes>
-                    </GlobalClickHighlighter>
-                   
-                  <div className="whatsapp_bot">
-                  <WhatsAppChatbot />
-                  </div>
-                </div>
-            )}
-        </>
-    );
+  return (
+    <>
+      {loading && <Loader onFinish={handleLoaderFinish} />}
+      {!loading && (
+        <div className="main_Parent">
+          <GlobalClickHighlighter>
+            <Routes>
+              <Route path="/" element={<Auth />} />
+              <Route path="/otp" element={<OtpVerification />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/sim-selection" element={<SimSelection />} />
+            </Routes>
+          </GlobalClickHighlighter>
+
+          <div className="whatsapp_bot">
+            <WhatsAppChatbot />
+          </div>
+        </div>
+      )}
+    </>
+  );
 };
 
 export default App;

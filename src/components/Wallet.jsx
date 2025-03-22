@@ -44,12 +44,8 @@ const Wallet = ({ onClose = () => {} }) => { // Set default value for onClose
   };
 
   const handleBackClick = () => {
-    if (onClose) {
-      onClose(); // Close Wallet and return to Home
-    } else {
-      // navigate("/home", { replace: true });
-      window.location.reload(); // Reload the page after navigating to home
-    }
+    navigate("/home", { replace: true });
+    window.location.reload(); // Ensure the page reloads to reflect the navigation
   };
 
   const handlePayClick = () => {
